@@ -1,0 +1,8 @@
+26 August 2011 - Licensed under the MIT license: http://www.opensource.org/licenses/mit-license.php
+
+Factory Method Pattern as referenced in my (Tentative) Design Pattern Collection Blog entry @ http://techrantnz.blogspot.com, that I'm slowly updating as my career progresses. I don't claim to know the best way to implement any given design pattern, so consider my code only as a guide to help when trying to understand a pattern/anti pattern or comparision of patterns for educational use.
+
+This is all subject to change, should someone wish to fork it in github, add modify or even redo it entirely. 
+
+Any advice/help or questions, direct them to me Dave van Dugteren @ dvd.nzl [AT] gmail.com or catch me on Twitter: DaveNZDeveloper
+
