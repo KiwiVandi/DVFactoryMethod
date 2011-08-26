@@ -22,6 +22,7 @@
 		6374A40B140624CA004AF3F3 /* GenericFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6374A40A140624CA004AF3F3 /* GenericFactory.m */; };
 		6374A40E140624DC004AF3F3 /* BlueButtonFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6374A40D140624DC004AF3F3 /* BlueButtonFactory.m */; };
 		6374A41114072A0C004AF3F3 /* RedButtonFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6374A41014072A0B004AF3F3 /* RedButtonFactory.m */; };
+		6374A41314072C5C004AF3F3 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 6374A41214072C5C004AF3F3 /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		6374A40D140624DC004AF3F3 /* BlueButtonFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueButtonFactory.m; sourceTree = "<group>"; };
 		6374A40F14072A0B004AF3F3 /* RedButtonFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedButtonFactory.h; sourceTree = "<group>"; };
 		6374A41014072A0B004AF3F3 /* RedButtonFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedButtonFactory.m; sourceTree = "<group>"; };
+		6374A41214072C5C004AF3F3 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 		6374A3C11406127C004AF3F3 = {
 			isa = PBXGroup;
 			children = (
+				6374A41214072C5C004AF3F3 /* README */,
 				6374A3D61406127C004AF3F3 /* DVFactoryMethodPattern */,
 				6374A3CF1406127C004AF3F3 /* Frameworks */,
 				6374A3CD1406127C004AF3F3 /* Products */,
@@ -208,6 +211,7 @@
 				6374A3DB1406127C004AF3F3 /* InfoPlist.strings in Resources */,
 				6374A3E41406127C004AF3F3 /* MainWindow.xib in Resources */,
 				6374A3EA1406127C004AF3F3 /* DVFactoryMethodPatternViewController.xib in Resources */,
+				6374A41314072C5C004AF3F3 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
