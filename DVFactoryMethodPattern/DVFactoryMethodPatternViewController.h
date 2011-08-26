@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GenericButton.h"
 
 @interface DVFactoryMethodPatternViewController : UIViewController
+{
+    IBOutlet GenericButton *button;
+    BOOL colourSwitch;
+}
+
+- (IBAction)addButton:(id)sender;
 
 @end

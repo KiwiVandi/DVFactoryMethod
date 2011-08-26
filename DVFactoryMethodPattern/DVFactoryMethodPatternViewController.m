@@ -7,6 +7,8 @@
 //
 
 #import "DVFactoryMethodPatternViewController.h"
+#import "BlueButtonFactory.h"
+#import "RedButtonFactory.h"
 
 @implementation DVFactoryMethodPatternViewController
 
@@ -20,13 +22,14 @@
 
 #pragma mark - View lifecycle
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    colourSwitch = NO;
 }
-*/
+
 
 - (void)viewDidUnload
 {
@@ -39,6 +42,20 @@
 {
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+
+- (IBAction)addButton:(id)sender{
+    
+    GenericButton *buttonA;
+    
+    if (colourSwitch)
+        buttonA = (GenericButton *)[[[BlueButtonFactory alloc] init] createBlueButton];
+    else
+        buttonA = (GenericButton *)[[[RedButtonFactory alloc] init] createRedButton];
+
+    [self.view addSubview: buttonA];
+    
+    colourSwitch = !colourSwitch;
 }
 
 @end
